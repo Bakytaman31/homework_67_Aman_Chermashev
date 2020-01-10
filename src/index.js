@@ -5,9 +5,9 @@ import * as serviceWorker from './serviceWorker';
 import {createStore} from "redux";
 import {Provider} from 'react-redux';
 
-import reducer from "./store/reducer";
+import passwordChecker from "./store/passwordChecker";
 
-const store = createStore(reducer);
+const store = createStore(passwordChecker);
 
 const app = (
     <Provider store={store}>

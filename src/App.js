@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import Password from "./Password/Password";
 
-function App() {
-  return (
+const App = () => (
     <div className="App">
-
+        <Password/>
     </div>
-  );
-}
+);
+
 
 export default App;
